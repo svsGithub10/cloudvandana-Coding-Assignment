@@ -1,6 +1,6 @@
 # CloudVandana Coding Assignment
 
-## 1. Simple Profile Card
+## 1. Simple Profile Card (portfolio folder)
 
 Designed a responsive profile card using HTML and CSS. The card includes:
 - A profile picture
@@ -10,7 +10,7 @@ Designed a responsive profile card using HTML and CSS. The card includes:
 - The card is centered on the page and adapts well to different screen sizes.
 - CSS animations are used for a hover effect on the card.
 
-## 2. String Manipulation - Anagram Check
+## 2. String Manipulation - Anagram Check (Anagram.java)
 
 Developed a Java program that:
 - Takes two strings as input.
@@ -25,7 +25,7 @@ Input: "hello", "world"
 Output: false
 ```
 
-## 3. Object-Oriented Programming - Employee Management System
+## 3. Object-Oriented Programming - Employee Management System (EmployeeManagement.java)
 
 Created a simple Java class `Employee` with the following attributes:
 - `id` (integer)
@@ -39,14 +39,14 @@ Created a simple Java class `Employee` with the following attributes:
   - Store them in a list.
   - Display their details.
 
-## 4. To-Do List using JavaScript and DOM
+## 4. To-Do List using JavaScript and DOM (to-do-list.html)
 
 Built a simple to-do list application that:
 - Allows users to add new tasks.
 - Displays tasks in a list.
 - Provides a button to remove each task.
 
-## 5. DOM Manipulation - Image Slider
+## 5. DOM Manipulation - Image Slider (image-slider folder)
 
 Implemented an image slider using JavaScript that:
 - Displays one image at a time.
