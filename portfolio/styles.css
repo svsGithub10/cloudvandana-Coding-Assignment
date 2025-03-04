@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Profile Card */
+.profile-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    transition: transform 0.3s ease-in-out;
+    height: auto;
+}
+
+.profile-card:hover {
+    transform: scale(1.05);
+}
+
+/* Profile Image */
+.profile-img img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 5px solid #007bff;
+    margin-bottom: 10px;
+}
+
+/* Name & Designation */
+h2 {
+    color: #000;
+    font-size: 26px;
+    margin: 5px 0;
+}
+
+h4 {
+    color: #007bff;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+/* Bio */
+.bio {
+    font-size: 14px;
+    color: #333;
+    margin: 15px 0;
+    padding: 0 10px;
+}
+
+/* About Me Section */
+.about-me {
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.about-me h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.about-me p {
+    font-size: 14px;
+    color: #444;
+}
+
+/* Social Media Icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+/* General Icon Styling */
+.social-icons a {
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0 10px;
+    padding: 12px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+/* GitHub - Black Icon with Black Border */
+.github {
+    color: #000;
+    background: #fff;
+    border: 2px solid #000;
+}
+
+.github:hover {
+    background: #000;
+    color: #fff;
+    transform: scale(1.2);
+}
+
+/* LinkedIn - Blue */
+.linkedin {
+    color: #fff;
+    background: #0077b5;
+}
+
+.linkedin:hover {
+    background: #005582;
+    transform: scale(1.2);
+}
+
+/* Email - Red Border */
+.email {
+    color: #d32f2f;
+    border: 2px solid #d32f2f;
+}
+
+.email:hover {
+    background: #d32f2f;
+    color: #fff;
+    transform: scale(1.2);
+}
+
+/* Portfolio - Dark Blue Background */
+.portfolio {
+    color: #fff;
+    background: #0a192f;
+}
+
+.portfolio:hover {
+    background: #14213d;
+    transform: scale(1.2);
+}
